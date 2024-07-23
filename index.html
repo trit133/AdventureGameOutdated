@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="advstyle.css">
+</head>
+<body>
+
+    
+
+
+<div class="function-interface">
+        
+    <div class="health-container">
+        <p>HEALTH BAR</p>
+        <div class="health-bar" id="healthBar">
+            <div class="health-bar-fill" id="healthBarFill"></div>
+        </div>
+    </div>
+    
+    <div class="enemy-health-container hidden" id="enemyHealthContainer">
+        <p id="enemyHealthBarName">ENEMY HEALTH BAR</p>
+        <div class="enemy-health-bar" id="enemyHealthBar">
+            <div class="enemy-health-bar-fill" id="enemyHealthBarFill"></div>
+        </div>
+    </div>
+
+
+
+    <div class="btn-container" id="btnContainer">
+
+    <div class="option-btns-grid" id="optionBtsGrid">
+        <button class="attack-btn" id="attackBtn">Attack</button>
+        <button class="defend-btn" id="defendBtn">Defend</button>
+        <button class="filter-btn" id="filterBtn">Cycle Weapons</button>
+        <button class="filter-armor-btn" id="filterArmorBtn">Cycle Armor</button>
+    </div>
+</div>
+
+
+<div class="inventory-container" id="inventoryContainer">
+    <p>PLAYER INVENTORY</p>
+    <div class="inventory-content-text" id="inventoryContent">Text</div>
+</div>
+
+<div class="special-move-container" id="specialContainer">
+    <button class="special-move-btn" id="specialMoveBtn">Special Move!</div>
+</div>
+
+<div class="parry-container" id="parryContainer">
+    <button class="parry-btn" id="parryBtn">PARRY!</div>
+</div>
+
+
+<div class="action-text-container" id="actionTextContainer">
+    <p>LOG</p>
+    <div class="action-text" id="actionContent"></div>
+</div>
+
+<div class="option-container">
+    <div id="text" class="textstyle">Text</div>
+    <div id="option-buttons" class="btn-grid">
+        <button class="btn" id="button"></button>
+        <button class="btn" id="button"></button>
+        <button class="btn" id="button"></button>
+        <button class="btn" id="button"></button>
+    </div>
+</div>
+
+<div id="lockPickingWindow" class="lock-picking-window">
+    <div class="lock-picking-container">
+      <div class="lock">
+        <div id="shackle"></div>
+        <div id="lock" class="dial">
+          <div id="line-dial" class="dial"></div>
+          <div id="notch-dial" class="dial"></div>
+          <div id="line"></div>
+          <div id="notch"></div>
+        </div>
+        <button id="lockPickButton" class="lockPickButton">PICK LOCK</button>
+      </div>
+    </div>
+  </div>
+<script defer src="adv.js"></script>
+</body>
+</html>
